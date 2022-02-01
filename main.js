@@ -12,3 +12,8 @@ const broadcast = (message, client) => {
 chatServer.on('connection', (client) => {
     client.write('Olá convidado' + '!\n')
 })
+
+client.on('end', () => {
+    console.log('Convidado saiu...', clientList.indexOf(client))
+    clientList.splice(clientList.indexOf(client), 1)
+})
