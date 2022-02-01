@@ -19,3 +19,5 @@ client.on('end', () => {
 })
 
 client.on('data', data => broadcast(data, client))
+
+chatServer.listen(9000)
