@@ -8,3 +8,7 @@ const broadcast = (message, client) => {
         .filter(item => item !== client)
         .forEach(item => item.write(message))
 }
+
+chatServer.on('connection', (client) => {
+    client.write('Olá convidado' + '!\n')
+})
