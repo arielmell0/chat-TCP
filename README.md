@@ -6,7 +6,7 @@ Status 🚧: ✅ Concluído ✅
 
 Um pequeno e simples chat TCP com NodeJS, utilizando o módulo [net](https://www.nodejs.org/api/net.html) nativo do core da plataforma.
 
-Projeto desenvolvido durante a minha experiência com o livro de Construindo aplicações com NodeJS 3° Edição .
+Projeto desenvolvido durante a minha experiência com o livro Construindo aplicações com NodeJS 3° Edição .
 
 ## ⚙️ Funcionalidades
 -  [x] Lado do Servidor TCP.
